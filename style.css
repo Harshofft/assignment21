@@ -1,0 +1,15 @@
+body {
+
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    background-color: #eeeee4;
+}
+
+.certificate {
+    color: #333;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
