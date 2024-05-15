@@ -5,11 +5,65 @@ body {
     background-color: #eeeee4;
 }
 
-.certificate {
+.receipt-container{
     color: #333;
+    width: 80%;
+    margin: 0px auto;
+    background-color: #fff;
+    border: gray solid 2px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.brand-logo{
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 7px;
+}
+.brand-name{
+    text-align: center;
+}
+.brand-address{
+    text-align: right;
+}
+.receipt-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 30px 0px;
+}
+.receipt-details{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.receipt-key{
+    width: 30%;
+    font-size: 18px;
+    color: grey;
+}
+.receipt-value{
+    width: 30%;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: dotted 1px black ;
+    text-align: start;
 }
 
-h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
+.QR-receipt{
+    height: 80px;
+    margin-right: 20px;
+}
+.rec-detail{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px;
+}
+.receipt-footer{
+    text-align: center;
+    background-color: goldenrod;
+    color: black;
+    padding: 20px;
 }
